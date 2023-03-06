@@ -67,7 +67,7 @@
                         placeholder="댓글을 입력해주세요"></textarea>
               <input class="form-control" type="hidden" id="newReplyBid" name="bid" value="${board.getBid()}">
               <input class="form-control" type="hidden" id="newReplyUNo" name="uno" value="${login.getUno()}">
-              <input class="form-control" type="hidden" id="newReplyName" name="name" value="${board.getName()}">
+              <input class="form-control" type="hidden" id="newReplyName" name="name" value="${login.getName()}">
 
               <button type="submit" class="btn btn-primary btn-md px-3 mt-2 me-sm-3 replyAddBtn" id="replyAddBtn">작성</button>
 
